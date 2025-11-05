@@ -1,8 +1,11 @@
 import React from "react";
+import "./style.css"
 
 const Footer = () => {
     return (
-        <h1>Footer ne</h1>
+        <footer>
+            <p>© 2024 My Website. All rights reserved.</p>
+        </footer>
     )
 }
 

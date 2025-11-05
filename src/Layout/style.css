@@ -1,0 +1,31 @@
+:root {
+    --bright-color: #fafafa;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bright-color);
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--bright-color);
+    width: 100%;
+    text-align: start;
+    padding: 2px 5px;
+}
